@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Un regalo para ti 💙</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <audio id="musica" loop>
+    <source src="img/musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Pantalla inicial -->
+  <section id="inicio" class="pantalla activa">
+    <div class="inicio-contenido">
+      <div class="logo-hotwheels">HOT WHEELS</div>
+      <h1>Un regalo especial 💙</h1>
+      <p>Toca para abrir</p>
+      <button id="abrir">ABRIR ✨</button>
+    </div>
+  </section>
+
+  <!-- Escena principal -->
+  <section id="principal" class="pantalla">
+    <div class="contenido">
+
+      <h2 class="fecha">Feliz 30 de septiembre</h2>
+
+      <!-- Ramo -->
+      <div class="ramo">
+
+        <!-- Papel del ramo -->
+        <div class="papel papel-1"></div>
+        <div class="papel papel-2"></div>
+        <div class="papel papel-3"></div>
+
+        <!-- Tallos -->
+        <div class="tallo t1"></div>
+        <div class="tallo t2"></div>
+        <div class="tallo t3"></div>
+        <div class="tallo t4"></div>
+        <div class="tallo t5"></div>
+        <div class="tallo t6"></div>
+
+        <!-- Flores -->
+        <div class="flor f1"><span></span><i></i></div>
+        <div class="flor f2"><span></span><i></i></div>
+        <div class="flor f3"><span></span><i></i></div>
+        <div class="flor f4"><span></span><i></i></div>
+        <div class="flor f5"><span></span><i></i></div>
+
+        <!-- Hojas -->
+        <div class="hoja h1"></div>
+        <div class="hoja h2"></div>
+        <div class="hoja h3"></div>
+        <div class="hoja h4"></div>
+        <div class="hoja h5"></div>
+        <div class="hoja h6"></div>
+        <div class="hoja h7"></div>
+        <div class="hoja h8"></div>
+
+        <!-- Carros: independientes de las flores -->
+        <div class="carros">
+          <img src="img/carro1.png" class="carro c1" alt="Hot Wheels 1">
+          <img src="img/carro2.png" class="carro c2" alt="Hot Wheels 2">
+          <img src="img/carro3.png" class="carro c3" alt="Hot Wheels 3">
+          <img src="img/carro4.png" class="carro c4" alt="Hot Wheels 4">
+          <img src="img/carro5.png" class="carro c5" alt="Hot Wheels 5">
+        </div>
+
+        <!-- Lazo -->
+        <div class="lazo">
+          <div></div>
+          <div></div>
+          <span></span>
+        </div>
+      </div>
+
+      <button id="mensajes">Ver mensaje 💙</button>
+    </div>
+  </section>
+
+  <!-- Mensaje -->
+  <section id="mensaje" class="pantalla">
+    <div class="mensaje-box">
+      <div class="mini-logo">HOT WHEELS</div>
+      <h2>Para ti 💙</h2>
+      <p>
+        Quería regalarte algo diferente, algo que pudiera sacarte una sonrisa.
+      </p>
+      <p>
+        Así que aquí tienes este pequeño ramo hecho especialmente para ti. 🚙💙
+      </p>
+      <p>
+        Para que veas que ninguna pasposa te quiere mas que yo.💙
+      </p>
+      <button id="volver">Volver al ramo</button>
+    </div>
+  </section>
+
+  <div id="brillos"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
